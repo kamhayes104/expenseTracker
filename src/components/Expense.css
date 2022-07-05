@@ -1,0 +1,76 @@
+.expense-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 0.75px rgb(0, 0, 0, 0.30);
+}
+
+.expense-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 5px;
+    width: 100px;
+    height: 50px;
+    color: rgb(22, 65, 255);
+    font-size: 20px;
+    font-weight: 300;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.1rem;
+    border-radius: 12px;
+}
+
+.expense-title {
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+
+.expense-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0, 0.60);
+    font-weight: 300;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    width: 70px;
+}
+
+.expense-month {
+    flex: 1;
+    margin: 0;
+    color: rgb(22, 65, 255);
+}
+
+.expense-day {
+    flex: 8;
+    font-size: 32px;
+    margin: 0;
+    color: rgb(22, 65, 255);
+}
+
+.expense-year {
+    flex: 1;
+    margin: 0;
+    color: rgb(22, 65, 255);
+}
+
+
+@media (max-width: 580px) {
+    .expense-amount h6 {
+      font-size: 16px;
+    }
+
+    .expense-date {
+        font-size: 16px;
+      }
+}

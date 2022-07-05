@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.app-header {
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-self: left;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5%;
+  font: inherit;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 10px;
+  border: 1px solid rgb(22, 65, 255);
+  background-color: transparent;
+  color: rgb(22, 65, 255);
+  width: 150px;
+  height: 50px;
+}
+
+.search-bar {
+  display: flex;
+  margin: 10px 2.5%;
+  padding-left: 5px;
+  font: inherit;
+  border: 1px solid black;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  width: 200px;
+  height: 50px;
+}
+
